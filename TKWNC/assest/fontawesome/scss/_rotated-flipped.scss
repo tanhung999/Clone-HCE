@@ -1,0 +1,23 @@
+agejpeg($this->image, $file, $quality);
+    }
+
+    public function line(int $x1, int $y1, int $x2, int $y2, int $color): bool
+    {
+        return imageline($this->image, $x1, $y1, $x2, $y2, $color);
+    }
+
+    /**
+     * @param resource|string|null $file
+     */
+    public function png($file = null, int $quality = -1, int $filters = -1): bool
+    {
+        if (! function_exists('imagepng')) {
+            return false;
+        }
+
+        return imagepng($this->image, $file, $quality, $filters);
+    }
+
+    public function string(int $font, int $x, int $y, string $string, int $color): bool
+    {
+        re

@@ -1,0 +1,29 @@
+.pheader{
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 0.8em;
+ color: brown;   
+}
+.imglang{
+ height: 15px;
+}
+.homeContent {
+    border: 1px solid red;
+    margin-top: 10px;
+}
+.card-body{
+    text-align: center;
+}
+.card-title{
+    color: #b01116;;
+    font-size: medium;
+}
+.card-text{
+    font-size: small;
+}
+.cardR{
+    margin-top: 10px;
+}
+.line{
+    color: red;
+    opacity: 50;
+}
